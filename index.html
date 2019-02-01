@@ -42,13 +42,8 @@
             };
 
             infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
+            infoWindow.setContent('Estas aquiii found.');
             infoWindow.open(map);
-            var marker = new google.maps.Marker({
-              position: pos,
-              map: map
-            });
-            map.panTo(pos);
             
             map.setCenter(pos);
           }, function() {
